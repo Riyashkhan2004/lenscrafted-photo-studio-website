@@ -1,0 +1,363 @@
+﻿<?php
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Photography Website for Studio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="photography_css.css" />
+    <link rel="stylesheet" href="animation.css" />
+    <link rel="stylesheet" href="next.css" />
+    <link rel="stylesheet" href="cursor.css" />
+
+
+</head>
+
+<body>
+        <div class="hero-section">
+        <div class="about-text hover-target">About</div>
+        <div class="contact-text hover-target">Contact</div>
+        <div class="gallery-text hover-target">Gallery</div>
+        <div class="section-center">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <h1>Lens Crafted Memories</h1>
+                    </div>
+                    <div class="col-12 text-center mb-2 fs-2">
+                        <div class="dancing f-4">Photography</div>
+                    </div>
+                    <div class="col-12 text-center mt-4 mt-lg-5">
+                        <p>
+                            <span class="travel hover-target">Profile</span>
+                            <span class="wildlife hover-target">PhotoShoot</span>
+                            <span class="nature hover-target">VideoGraphy</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-section">
+        <div class="about-close hover-target"></div>
+        <div class="section-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <img src="/pictures/camera1.jpg" alt="">
+                    </div>
+                    <div id="star-container">
+                        <span class="star" onclick="submitRating(1)">★</span>
+                        <span class="star" onclick="submitRating(2)">★</span>
+                        <span class="star" onclick="submitRating(3)">★</span>
+                        <span class="star" onclick="submitRating(4)">★</span>
+                        <span class="star" onclick="submitRating(5)">★</span>
+                      </div>
+                      
+                    <div class="col-lg-8 text-center mt-4">
+                        <p>Photography website to fake assemption for mini project</p>
+                    </div>
+                    <div class="col-12 text-center">
+                        <p><span>Lens Crafted Memories</span></p>
+                    </div>
+                    <div class="slideshow-container">
+                        <!-- Slides -->
+                        <div class="mySlides">
+                          <figure>
+                            <img src="pictures/cam.jfif" alt="" style="height: 300px;width: 400px;">
+                            <figcaption>RATING</figcaption>
+                          </figure>
+                        </div>
+                      
+                        <div class="mySlides">
+                          <figure>
+                            <img src="pictures/wedding.jfif" alt=""style="height: 300px;width: 400px;">
+                            <figcaption>INTELLIGENCE</figcaption>
+                          </figure>
+                        </div>
+                      
+                        <div class="mySlides">
+                          <figure>
+                            <img src="pictures/puberty.jfif" alt=""style="height: 300px;width: 400px;">
+                            <figcaption>STYLISH</figcaption>
+                          </figure>
+                        </div>
+                      
+                        <!-- Navigation dots -->
+                        <div style="text-align: center; margin-top: 20px;height: 200px;width: 200px;">
+                          <span class="dot"></span>
+                          <span class="dot"></span>
+                          <span class="dot"></span>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-section">
+        <div class="contact-close hover-target"></div>
+        <div class="section-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <a href="#" class="hover-target">krp@photography.com</a>
+                    </div>
+                    <div class="col-12 text-center social mt-4">
+                        <a href="https://www.instagram.com/spidey_riyas/" class="hover-target">instagram</a>
+                        <a href="https://web.whatsapp.com/" class="hover-target">whatsapp</a>
+                        <a href="https://www.facebook.com/profile.php?id=100053133542080"class="hover-target">facebook</a>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="travel-section">
+        <div class="travel-close hover-target"></div>                        
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h3>profile</h3>
+                </div>
+                <div class="col-12 mt-3 text-center">
+                    <p><span>Canon PowerShot S95</span></p>
+                </div>
+                <div class="col-12 text-center">
+                    <p>
+                        focal length: 22.5mm<br>
+                        aperture: ƒ/5.6<br>
+                        exposure time: 1/1000<br>
+                        ISO: 80
+                    </p>
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+      <!-- Fixed position container at the bottom with hover effect -->
+      <div class="bottom-hover-container">
+        <button onclick="activateHover()">Activate Hover</button>
+        <span class="close-button" onclick="closeContainer()">X</span>
+        <p>Gallery</p>
+        <img src="pictures/Portrait700-2-683x1024.jpg" alt="">
+        <!-- Add your navigation links, buttons, or other content here -->
+      </div>
+      
+    <div class="wildlife-section">
+        <div class="wildlife-close hover-target"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h3>Event Photography</h3>
+                </div>
+                <div class="col-12 mt-3 text-center">
+                    <p><span>Canon R6 II</span></p>
+                </div>
+                <div class="col-12 text-center">
+                    <p>
+                        focal length: 22.5mm<br>
+                        aperture: ƒ/5.6<br>
+                        exposure time: 1/1000<br>
+                        ISO: 80
+                    </p>
+                </div>
+                <div class="photography-container">
+                    <a href="loginpage.html">
+                        <div id="topheading">Wedding Photography</div><img src="pictures/wedding.jfif"alt="Wedding photography" title="Wedding Photography" style="height: 210px;">
+                    </a>
+                </div>
+                <div class="photography-container">
+                    <a href="loginpage.html">
+                        <div id="topheading">Child Photography</div><img src="pictures/IMG_7903.jpg"alt="Child Photography" title="Child Photography" style="height: 210px;">
+                    </a>
+                </div>
+                <div class="photography-container">
+                    <a href="loginpage.html">
+                        <div id="topheading">Baby Shower Photography</div><img src="pictures/OIP (1).jfif"alt="Baby Shower Photography" title="Baby Shower Photography" style="height: 210px;">
+                    </a>
+                </div>
+                <div class="photography-container">
+                    <a href="loginpage.html">
+                        <div id="topheading">Birthday Party photography</div><img src="pictures/OIP (2).jfif"alt="Birthday Party Photography" title="Birthday Party Photography" style="height: 210px;">
+                    </a>
+                </div>
+                <div class="photography-container">
+                    <a href="loginpage.html">
+                        <div id="topheading">Ear-Piercing Photography</div><img src="pictures/tonsuring-and-ear-piercing.jpg" alt="Ear-Piercing Photography"title="Ear-Piercing Photography" style="height: 210px;">
+                    </a>
+                </div>
+                <div class="photography-container">
+                    <a href="loginpage.html">
+                        <div id="topheading">Pre-Pregnancy photography</div><img src="pictures/Portrait700-2-683x1024.jpg" alt="Pre-Pregnancy Photography"title="Pre-Pregnancy Photo Shoot" style="height: 210px;">
+                    </a>
+                </div>
+                <div class="photography-container">
+                    <a href="loginpage.html">
+                        <div id="topheading">Wedding Reception Photography</div><img src="pictures/reception.jfif"alt="Wedding Reception Photography" title="Wedding Reception Photography"style="height: 210px;">
+                    </a>
+                </div>
+                <div class="photography-container">
+                    <a href="loginpage.html">
+                        <div id="topheading">Puberty Ceremony Photography</div><img src="pictures/puberty.jfif"alt="Puberty Ceremony Photography" title="Puberty Ceremony Photography"style="height: 210px;">
+                    </a>
+                </div>
+                <div class="photography-container">
+                    <a href="loginpage.html">
+                        <div id="topheading">Pre-Wedding Photography </div><img src="pictures/pre-wedding.jpg"alt="Pre-Wedding Photography" title="Pre-Wedding Reception Photography"style="height: 210px;">       
+                    </a>
+                </div>
+                <div class="photography-container">
+                    <a href="loginpage.html">
+                        <div id="topheading"> Funeral Photography</div><img src="pictures/funeral.jfif"alt="funeral Photography" title="funeral Photography" style="height: 210px;">
+                    </a>
+                </div>
+                <div class="photography-container">
+                    <a href="loginpage.html">
+                        <div id="topheading">Cradle Ceremony Photography</div><img src="pictures/cradle.jpg"alt="Cradle Ceremony Photography" title="Cradle Ceremony Photography"style="height: 210px;">
+                    </a>
+                </div>
+                <div class="photography-container">
+                    <a href="loginpage.html">
+                        <div id="topheading">Haldi Ceremony Photography</div><img src="pictures/haldi.jfif"alt="Haldi Ceremony Photography" title="Haldi Ceremony Photography" style="height: 210px;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery-section">
+        <div class="gallery-close hover-target"></div>
+        <div class="section-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h4>gallery</h4>
+                </div>
+                <div class="col-lg-8 text-center mt-4">
+                    <p>Photography website to fake assemption for mini project</p>
+                </div>
+                <div class="col-12 text-center">
+                    <p><span>KRP STUDIO</span></p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="nature-section">
+        <div class="nature-close hover-target"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h3>VideoGraphy</h3>
+                </div>
+                <div class="col-12 mt-3 text-center">
+                    <p><span>Canon PowerShot S95</span></p>
+                </div>
+                <div class="col-12 text-center">
+                    <p>
+                        focal length: 22.5mm<br>
+                        aperture: ƒ/5.6<br>
+                        exposure time: 1/1000<br>
+                        ISO: 80
+                    </p>
+                </div>
+                <div class="photography-container">
+                    <a href="loginpage.html">
+                        <div id="topheading">Short Film</div><img src="/pictures/short.jpg" alt="Short Film" title="Short Film" style="height: 210px;">
+                    </a>
+                </div>
+                <div class="photography-container">
+                    <a href="loginpage.html">
+                        <div id="topheading">Stop Motion</div><img src="/pictures/stomo.png" alt="Stop Motion" title="Stop Motion" style="height: 210px;">
+                    </a>
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+                <div class="photography-container">
+                    <img src="http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='cursor' id="cursor"></div>
+    <div class='cursor2' id="cursor2"></div>
+    <div class='cursor3' id="cursor3"></div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="script.js"></script>
+    <footer>
+        <p>I am a little star</p>
+    </footer>
+</body>
+<script src="javascript_phott.js">
+</script>
+
+</html>
+?>

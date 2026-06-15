@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Admin</title>
+    <style>
+        /* Existing styles from the previous examples... */
+
+        /* Upload form styles */
+        .upload-form {
+            max-width: 400px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .upload-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .upload-form input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .upload-form button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .upload-form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Existing HTML structure... -->
+
+    <section>
+        <h2>Upload Photos</h2>
+
+        <div class="upload-form">
+            <form action="your_upload_handler.php" method="post" enctype="multipart/form-data">
+                <label for="photo">Select Photo:</label>
+                <input type="file" id="photo" name="photo" accept="image/*" required>
+                
+                <!-- Additional fields can be added if needed -->
+
+                <button type="submit">Upload</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Existing HTML structure... -->
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Profiles</title>
+    <style>
+        /* CSS styling goes here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .profile {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            overflow: hidden;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+        .profile:hover {
+            transform: translateY(-5px);
+        }
+        .profile img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .profile-info {
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.9);
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+        .profile:hover .profile-info {
+            transform: translateY(0);
+        }
+        .profile-info h2 {
+            margin-top: 0;
+        }
+        .profile-info p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <img src="photographer1.jpg" alt="Photographer 1">
+        <div class="profile-info">
+            <h2>Photographer 1</h2>
+            <p>Description of Photographer 1</p>
+            <!-- Additional information or form can be added here -->
+        </div>
+    </div>
+    <div class="profile">
+        <img src="photographer2.jpg" alt="Photographer 2">
+        <div class="profile-info">
+            <h2>Photographer 2</h2>
+            <p>Description of Photographer 2</p>
+            <!-- Additional information or form can be added here -->
+        </div>
+    </div>
+    <!-- Add more profiles as needed -->
+</body>
+</html>
