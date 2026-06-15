@@ -37,6 +37,12 @@ index.html
 
 in browser.
 
+## 📄 Documentation
+
+Complete project documentation:
+
+[View Project Documentation](docs/LENS CRAFTED MEMORIES PHOTOGRAPHY)
+
 ## Author
 
 Riyash Khan
