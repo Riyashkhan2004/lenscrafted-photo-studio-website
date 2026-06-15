@@ -41,7 +41,7 @@ in browser.
 
 Complete project documentation:
 
-[View Project Documentation](docs/LENS CRAFTED MEMORIES PHOTOGRAPHY.docx)
+[View Project Documentation](docs/LENS-CRAFTED-MEMORIES-PHOTOGRAPHY.docx)
 
 ## Author
 
